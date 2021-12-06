@@ -1,0 +1,32 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+input[type=text]{
+    padding: 5px;
+    margin-top: 5px;
+    border-color: indigo;
+    border-style: solid;
+    box-shadow: none;
+    border-radius: 8px;
+}
+h2{
+  margin-top: 0px;
+  color: brown;
+}
+button{
+    padding: 7px 20px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn-update{
+    background-color: orange;
+    color: white;
+}
+.btn-cancel{
+    background-color:maroon;
+    color: white;
+}
